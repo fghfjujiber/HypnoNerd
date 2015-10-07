@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "JCMHypnosisViewController.h"
+#import "JCMReminderViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,23 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    NSLog(@"%@",self.window);
+    self.window = [[UIWindow alloc]initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    JCMHypnosisViewController *HVC = [[JCMHypnosisViewController alloc]init];
+    
+    NSBundle *appBundle = [NSBundle mainBundle];
+    
+    JCMReminderViewController *RVC = [[JCMReminderViewController alloc]initWithNibName:@"JCMReminderViewController" bundle:appBundle];
+    
+    UITabBarController *tabarController = [[UITabBarController alloc]init];
+    tabarController.viewControllers = @[HVC, RVC];
+    [[UITabBar appearance] setBackgroundColor:[UIColor whiteColor]];
+    
+    self.window.rootViewController = tabarController;
+    
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

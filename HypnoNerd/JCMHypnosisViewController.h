@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JCMHypnosisViewController.h
 //  HypnoNerd
 //
 //  Created by Xiaoming Chen on 15/10/7.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface JCMHypnosisViewController : UIViewController
 
 @end
-

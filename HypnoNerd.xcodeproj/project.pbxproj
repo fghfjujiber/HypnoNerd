@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		C6C3C4A51BC544CB008AF126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3C4A41BC544CB008AF126 /* main.m */; };
 		C6C3C4A81BC544CB008AF126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3C4A71BC544CB008AF126 /* AppDelegate.m */; };
-		C6C3C4AB1BC544CB008AF126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3C4AA1BC544CB008AF126 /* ViewController.m */; };
-		C6C3C4AE1BC544CB008AF126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C3C4AC1BC544CB008AF126 /* Main.storyboard */; };
 		C6C3C4B01BC544CB008AF126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6C3C4AF1BC544CB008AF126 /* Assets.xcassets */; };
-		C6C3C4B31BC544CB008AF126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6C3C4B11BC544CB008AF126 /* LaunchScreen.storyboard */; };
+		C6C3C4BC1BC54528008AF126 /* JCMHypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3C4BB1BC54528008AF126 /* JCMHypnosisView.m */; settings = {ASSET_TAGS = (); }; };
+		C6C3C4C21BC55780008AF126 /* JCMHypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3C4C11BC55780008AF126 /* JCMHypnosisViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6C3C4C41BC558A0008AF126 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C6C3C4C31BC558A0008AF126 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		C6C3C4C71BC55940008AF126 /* JCMReminderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6C3C4C61BC55940008AF126 /* JCMReminderViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C6C3C4C91BC55A66008AF126 /* JCMReminderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C6C3C4C81BC55A66008AF126 /* JCMReminderViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		C6C3C4A41BC544CB008AF126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6C3C4A61BC544CB008AF126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C6C3C4A71BC544CB008AF126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C6C3C4A91BC544CB008AF126 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C6C3C4AA1BC544CB008AF126 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		C6C3C4AD1BC544CB008AF126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C6C3C4AF1BC544CB008AF126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C6C3C4B21BC544CB008AF126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6C3C4B41BC544CB008AF126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6C3C4BA1BC54528008AF126 /* JCMHypnosisView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCMHypnosisView.h; sourceTree = "<group>"; };
+		C6C3C4BB1BC54528008AF126 /* JCMHypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCMHypnosisView.m; sourceTree = "<group>"; };
+		C6C3C4C01BC55780008AF126 /* JCMHypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCMHypnosisViewController.h; sourceTree = "<group>"; };
+		C6C3C4C11BC55780008AF126 /* JCMHypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCMHypnosisViewController.m; sourceTree = "<group>"; };
+		C6C3C4C31BC558A0008AF126 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C6C3C4C51BC55940008AF126 /* JCMReminderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCMReminderViewController.h; sourceTree = "<group>"; };
+		C6C3C4C61BC55940008AF126 /* JCMReminderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCMReminderViewController.m; sourceTree = "<group>"; };
+		C6C3C4C81BC55A66008AF126 /* JCMReminderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JCMReminderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +48,7 @@
 		C6C3C4971BC544CB008AF126 = {
 			isa = PBXGroup;
 			children = (
+				C6C3C4C31BC558A0008AF126 /* Default-568h@2x.png */,
 				C6C3C4A21BC544CB008AF126 /* HypnoNerd */,
 				C6C3C4A11BC544CB008AF126 /* Products */,
 			);
@@ -58,13 +65,16 @@
 		C6C3C4A21BC544CB008AF126 /* HypnoNerd */ = {
 			isa = PBXGroup;
 			children = (
+				C6C3C4BA1BC54528008AF126 /* JCMHypnosisView.h */,
+				C6C3C4BB1BC54528008AF126 /* JCMHypnosisView.m */,
+				C6C3C4C01BC55780008AF126 /* JCMHypnosisViewController.h */,
+				C6C3C4C11BC55780008AF126 /* JCMHypnosisViewController.m */,
+				C6C3C4C81BC55A66008AF126 /* JCMReminderViewController.xib */,
+				C6C3C4C51BC55940008AF126 /* JCMReminderViewController.h */,
+				C6C3C4C61BC55940008AF126 /* JCMReminderViewController.m */,
 				C6C3C4A61BC544CB008AF126 /* AppDelegate.h */,
 				C6C3C4A71BC544CB008AF126 /* AppDelegate.m */,
-				C6C3C4A91BC544CB008AF126 /* ViewController.h */,
-				C6C3C4AA1BC544CB008AF126 /* ViewController.m */,
-				C6C3C4AC1BC544CB008AF126 /* Main.storyboard */,
 				C6C3C4AF1BC544CB008AF126 /* Assets.xcassets */,
-				C6C3C4B11BC544CB008AF126 /* LaunchScreen.storyboard */,
 				C6C3C4B41BC544CB008AF126 /* Info.plist */,
 				C6C3C4A31BC544CB008AF126 /* Supporting Files */,
 			);
@@ -136,9 +146,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6C3C4B31BC544CB008AF126 /* LaunchScreen.storyboard in Resources */,
 				C6C3C4B01BC544CB008AF126 /* Assets.xcassets in Resources */,
-				C6C3C4AE1BC544CB008AF126 /* Main.storyboard in Resources */,
+				C6C3C4C91BC55A66008AF126 /* JCMReminderViewController.xib in Resources */,
+				C6C3C4C41BC558A0008AF126 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,32 +159,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6C3C4AB1BC544CB008AF126 /* ViewController.m in Sources */,
+				C6C3C4C21BC55780008AF126 /* JCMHypnosisViewController.m in Sources */,
 				C6C3C4A81BC544CB008AF126 /* AppDelegate.m in Sources */,
 				C6C3C4A51BC544CB008AF126 /* main.m in Sources */,
+				C6C3C4BC1BC54528008AF126 /* JCMHypnosisView.m in Sources */,
+				C6C3C4C71BC55940008AF126 /* JCMReminderViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		C6C3C4AC1BC544CB008AF126 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6C3C4AD1BC544CB008AF126 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		C6C3C4B11BC544CB008AF126 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C6C3C4B21BC544CB008AF126 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		C6C3C4B51BC544CB008AF126 /* Debug */ = {
